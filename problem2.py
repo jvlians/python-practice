@@ -1,7 +1,7 @@
 def concat(str1, str2):
 	# Now, write a program that combines the first and second strings 
 	# with a space between!
-
+	
 	# Your code goes here!
 	
 
