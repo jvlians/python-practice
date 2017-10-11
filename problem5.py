@@ -1,18 +1,16 @@
-def fib( n ):
+def twoSum( arr, target ):
 	# This problem is a little more complex.
-	# Your goal is to return the nth number of the fibonacci sequence.
-	# The fibonacci sequence is the sequence of numbers where each number is the sum of
-	# the last two numbers.
-	# HINT: The first two numbers of the fibonacci sequence are 1, and 1.
-	# As a list, the sequence starts as [1, 1, 2, 3, 5, 8, ...] going to infinity.
+	# Your goal is to see if the array you're given contains any two numbers
+	# that, when added, yield the sum you're looking for.
 
 	# Your code goes here!
 
 
 
-n = 21
-print fib(n)
-if fib(n) == 10946:
+arr = [5, 7, 12, 3, 11, 14, 6, 1, 9, 18, 20, 22, 33, 13, 8]
+target = 15
+print twoSum(arr, target)
+if twoSum(arr,target):
 	print "success!"
 else:
 	print "try again!"
