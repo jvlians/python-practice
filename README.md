@@ -57,8 +57,8 @@ print num
 The phrase "Strings" refers to a string of characters put together, like a word, sentence, or phrase. They are nominal in nature, meaning that it's not ideal to treat them as values that may be greater or less than one another in the same sense that numbers are. Usually, working with Strings means you'll be splitting it into unique data, or combining information to a human-readable form to output later.
 
 ```python
-str1 = 'Hello'
-str2 = 'World'
+str1 = "Hello"
+str2 = "World"
 print str1 + ' ' + str2	# This line prints "Hello World"
 ```
 
@@ -104,7 +104,7 @@ num -= 1
 if num > 9:
 	print num
 else:
-	print 'too small!'
+	print "too small!"
 ```
 
 If you want to *only* perform an action when a condition *isn't* met, then you should write an if statement with a "not", negating the success condition.
@@ -113,7 +113,7 @@ If you want to *only* perform an action when a condition *isn't* met, then you s
 num = 10
 num -= 1
 if not num > 9:
-	print 'just small enough'
+	print "just small enough"
 ```
 
 Resources
