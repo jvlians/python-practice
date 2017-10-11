@@ -1,6 +1,7 @@
 def divideByTen(num):
-	# Your code goes here!
 	# Try returning a version of the number you got divided by 10.
+	
+	# Your code goes here!
 
 
 
