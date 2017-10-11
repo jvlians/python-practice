@@ -11,6 +11,16 @@ Data Types
 --------------------------
 "Data Types" are the different kinds of data you will be manipulating in Python. For now, you'll only be working with Strings and Numbers. The data types you have available to work with will change from language to language, but for now, Strings and Numbers are all that are necessary.
 
+### Boolean
+The phrase "Boolean" refers to the simplest form of information - True and False. This lets your program decide whether or not certain conditions are met.
+
+```python
+happy = True
+not happy				# This returns False, meaning I am happy.
+num = 10
+num > 9					# This returns True, meaning num is greater than 10.
+```
+
 ### Numbers
 The phrase "Numbers" refers to any number you'll work with in Python. They can be positive, negative, zero, or decimal numbers. There are two major types of numbers you'll work with in Python, representing "whole" numbers, and "decimal" numbers.
 
@@ -123,3 +133,4 @@ The information found on this repository was gathered from the following website
 [Intro to Python](http://introtopython.org/)
 [Python.org](https://www.python.org/)
 [Tutorialspoint](https://www.tutorialspoint.com/python/)
+[The Python Guru](http://thepythonguru.com/)
