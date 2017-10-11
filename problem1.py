@@ -6,7 +6,7 @@ def divideByTen(num):
 
 
 num = 10
-print divideByTen(num)
+print(divideByTen(num))
 if divideByTen(num) == 1:
 	print("success!")
 else:
