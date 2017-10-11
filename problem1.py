@@ -8,6 +8,6 @@ def divideByTen(num):
 num = 10
 print divideByTen(num)
 if divideByTen(num) == 1:
-	print "success!"
+	print("success!")
 else:
-	print "try again!"
+	print("try again!")
